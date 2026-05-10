@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 3001;
 
 app.use(
   cors({
-    origin: 'https://vigneshagencyin.vercel.app',
+    origin: 'vigneshagencyin-muth20cs092-1119s-projects.vercel.app',
     credentials: true,
   })
 );
