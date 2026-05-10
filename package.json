@@ -1,0 +1,23 @@
+{
+  "name": "vignesh-agency-backend",
+  "version": "2.0.0",
+  "description": "Vignesh Agency Milk Distributor — Backend API (no build tools needed)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "seed:curd": "node scripts/seedCurdProducts.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^9.4.1",
+    "sql.js": "^1.10.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
